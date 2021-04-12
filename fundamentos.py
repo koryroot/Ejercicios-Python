@@ -16,3 +16,16 @@ else:
 
 print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 
+print("Determinar si un número es positivo, negativo o neutro.")
+"""Para la solución de este problema, se requiere que
+ingrese un número entero por teclado y el sistema verifique si
+es positivo, neutro o negativo."""
+
+n1 = int(input("Introduce un numero: "))
+if n1 < 0:
+    print("El numero es negativo")
+elif n1 > 0:
+    print("El numero es positivo")
+else:
+    print("El numero es neutro")
+print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
