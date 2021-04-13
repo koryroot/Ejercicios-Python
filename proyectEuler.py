@@ -9,7 +9,8 @@ def Multiplo(nm):
         print("El numero es multiplo de 5")
     else:
         print("El numero que ha introduccido no es multiplo")
-mn = int(input("Introduce un numero: "))
-Multiplo(mn)
+#mn = int(input("Introduce un numero: "))
+#Multiplo(mn)
 
 #2
+

@@ -55,4 +55,13 @@ def vocal(vocal):
 
 v = input("Introduce un caracter: ")
 vocal(v)
-#print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+
+print("determina si un numero es par o impar")
+def PoI(poi):
+    if poi % 2 == 0:
+        print("El numero es par") 
+    else:
+        print("el numero es impar")
+iop = int(input("introduce un numero"))
+PoI(iop
