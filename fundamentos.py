@@ -28,20 +28,31 @@ n1 = int(input("Introduce un numero: "))
 Num(n1)
 print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 
-#programa para determinar si se ha igresado un numero
-def Idnum(n1)
+print("programa para determinar si se ha igresado un numero")
+def Idnum(cosa):
     if cosa.isdigit():
         print("El valor ingresado es un numero" )
     else:
         print("Eso no es un numero e.e")
 
-cosa = input("Digita un numero: ")
-Idnum(cosa)
-   
-
+cosas = input("Digita un numero: ")
+Idnum(cosas)
+print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
 #3. Problema 03: Dado un carácter determine si es una Vocal o no.
-"""Análisis: Para la solución de este problema, se requiere que
-usuario ingrese un carácter y el sistema verifique si es un
-vocal o no."""
 
+print("Dado un carácter determine si es una Vocal o no.")
+def vocal(vocal):
+    if vocal in ['a','e','i','o','u','A','E','I','O','U']:
+        return "El caracter es una vocal"
+    elif vocal in ['y','Y']:
+        return "vocal/consonante"
+    elif vocal.isdigit():
+        print("usted ha introducido un numero")
+    elif vocal in ['!','@','#','$','%','^','&','*','(',')','{','}','[',']']:
+        print("Usted ha introducciodo un caracter especial")
+    else:
+        print("Es una consonate")
+
+v = input("Introduce un caracter: ")
+vocal(v)
 #print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
