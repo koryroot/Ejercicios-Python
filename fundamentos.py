@@ -1,6 +1,6 @@
 #Problema 01: Dado dos números diferentes, devolver el número mayor
-
-""" Análisis: Para la solución de este problema, se requiere que
+"""
+""Análisis: Para la solución de este problema, se requiere que
 ingrese dos números por teclado y el sistema realice el proceso
 de devolver el número mayor."""
 
@@ -29,3 +29,16 @@ elif n1 > 0:
 else:
     print("El numero es neutro")
 print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+
+#programa para determinar si se ha igresado un numero
+
+cosa = input("Digita un numero: ")
+if cosa.isdigit():
+    print("El valor ingresado es un numero" )
+else:
+    print("Eso no es un numero e.e")
+
+#3. Problema 03: Dado un carácter determine si es una Vocal o no.
+"""Análisis: Para la solución de este problema, se requiere que
+usuario ingrese un carácter y el sistema verifique si es un
+vocal o no."""
